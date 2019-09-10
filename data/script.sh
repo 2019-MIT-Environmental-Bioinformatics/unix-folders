@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for s in $(seq 100)
+for s in $(seq $1)
 do 
-	echo $s $RANDOM $RANDOM $RANDOM $RANDOM
+	echo $s $RANDOM $RANDOM 
 done

@@ -2,5 +2,5 @@
 
 for name in $(cat $1)
 do
-	bash script.sh > ${name}.out
+	bash script.sh $RANDOM > ${name}.out
 done
